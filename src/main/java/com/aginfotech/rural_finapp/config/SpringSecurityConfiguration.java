@@ -12,7 +12,15 @@ public class SpringSecurityConfiguration extends WebSecurityConfigurerAdapter {
 		http.authorizeRequests()
 		.anyRequest().authenticated()
 		.and()
-		.oauth2Login().and().csrf().disable();
+		.oauth2Login()
+		.and()
+		.csrf().disable()
+		.logout()
+		.logoutUrl("/signout")
+		.logoutSuccessUrl("/")
+		.invalidateHttpSession(true)
+		.deleteCookies("JSESSIONID");
+		
 	}
 
 }
