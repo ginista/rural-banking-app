@@ -101,7 +101,7 @@
 	</dependencyManagement>
 
 	<build>
-		<finalName>rural-finapp</finalName>
+		<finalName>ROOT</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
