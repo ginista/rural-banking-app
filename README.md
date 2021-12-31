@@ -1,6 +1,6 @@
 # rural-banking-app
 
-**Note: When you hit the application url for the first time, it might take some time to load. Please wait until you see the page for the first time. Subsequent hits will be quick.**
+**Note: Free App Service Tier F1 is used for deployment. Since Always ON is not available for F1 tier, when you hit the application url for the first time, it might take some time to load. Please wait until you see the page for the first time. Subsequent hits will be quick.**
 
 Please find the Azure Active Directory test user login credential for the application below:
 
@@ -20,4 +20,5 @@ Upon successful login, you will see three options in the home menu,
   iv) Add New Loan -> Can be used to create new loan account for the customer
 3) Logout -> Used to invalidate existing session
 
-For better viewing experience, use the latest version of Chrome in PC.
+
+For better viewing experience, please use the latest version of Chrome in PC.
