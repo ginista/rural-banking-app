@@ -1,7 +1,5 @@
 # rural-banking-app
 
-**Note: Free App Service Tier F1 is used for deployment. Since Always ON is not available for F1 tier, when you hit the application url for the first time, it might take some time to load. Please wait until you see the page for the first time. Subsequent hits will be quick.**
-
 Please find the Azure Active Directory test user login credential for the application below:
 
 Username: test-user@ruralbanking.onmicrosoft.com
