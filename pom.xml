@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.aginfotech</groupId>
 	<artifactId>rural-finapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>war</packaging>
 	<name>rural-finapp</name>
 	<description>Fintech App for Microsoft Internship</description>
