@@ -1,105 +1,74 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="UTF-8">
-	<title>Support Team</title>
-	<!-- Bootstrap CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-	<!-- Custom CSS -->
-	<style type="text/css">
-		body {
-			padding-top: 40px;
-			padding-bottom: 40px;
-			background-color: #eee;
-		}
-		.panel {
-			margin-bottom: 20px;
-			background-color: #fff;
-			border-radius: 5px;
-			box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-		}
-		.panel-heading {
-			padding: 10px 15px;
-			border-bottom: 1px solid transparent;
-			border-top-left-radius: 3px;
-			border-top-right-radius: 3px;
-		}
-		.panel-heading h3 {
-			margin-top: 0;
-			margin-bottom: 0;
-			font-size: 18px;
-		}
-		.panel-body {
-			padding: 15px;
-		}
-		.support-team img {
-			max-width: 100%;
-			margin-bottom: 10px;
-			border-radius: 50%;
-		}
-		.support-team .name {
-			font-weight: bold;
-			margin-bottom: 5px;
-		}
-		.support-team .title {
-			margin-bottom: 10px;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <title>Support Team</title>
+    <!-- Bootstrap CSS -->
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
-<body>
-
-
-
-	<div class="container">
-		<h2>Support Team</h2>
-		<div class="row">
-			<div class="col-sm-4">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title">Antanin Ginista</h3>
-					</div>
-					<div class="panel-body support-team">
-						<img src="images/john-doe.jpg" alt="Antanin Ginista">
-						<p class="name">Antanin Ginista </p>
-						<p class="title">Technical Support</p>
-						<p><a href=""><span class="glyphicon glyphicon-phone"></span> 7598049725</a></p>
-						</div>
-						</div>
-						</div>
-
-						<div class="row">
-                        			<div class="col-sm-4">
-                        				<div class="panel panel-default">
-                        					<div class="panel-heading">
-                        						<h3 class="panel-title">Ashika</h3>
-                        					</div>
-                        					<div class="panel-body support-team">
-                        						<img src="images/john-doe.jpg" alt="Ashika">
-                        						<p class="name">Ashika </p>
-                        						<p class="title">Technical Support</p>
-                        						<p><a href=""><span class="glyphicon glyphicon-phone"></span> 7598049725</a></p>
-                        						</div>
-                        						</div>
-                        						</div>
-
-                        						<div class="row">
-                                                			<div class="col-sm-4">
-                                                				<div class="panel panel-default">
-                                                					<div class="panel-heading">
-                                                						<h3 class="panel-title">Abina</h3>
-                                                					</div>
-                                                					<div class="panel-body support-team">
-                                                						<img src="images/john-doe.jpg" alt="Abina">
-                                                						<p class="name">Abina </p>
-                                                						<p class="title">Technical Support</p>
-                                                						<p><a href=""><span class="glyphicon glyphicon-phone"></span> 7598049725</a></p>
-                                                						</div>
-                                                						</div>
-                                                						</div>
-
-
-
-						</div>
-						</div>
-
-
+<body class="d-flex flex-column min-vh-100">
+<%@ include file="header.html" %>
+<div class="container">
+    <h3>Support Team Details</h3>
+    <br>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Technical Support</h3>
+                </div>
+                <div class="panel-body support-team">
+                    <p class="name">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                        </svg>
+                        Antanin Ginista
+                    </p>
+                    <p><a href=""><span class="glyphicon glyphicon-phone"></span> 9999999999</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Technical Support</h3>
+                </div>
+                <div class="panel-body support-team">
+                    <p class="name">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                        </svg>
+                        Ashika
+                    </p>
+                    <p><a href=""><span class="glyphicon glyphicon-phone"></span> 8888888888</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Technical Support</h3>
+                </div>
+                <div class="panel-body support-team">
+                    <p class="name">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                             class="bi bi-person" viewBox="0 0 16 16">
+                            <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z"/>
+                        </svg>
+                        Abina
+                    </p>
+                    <p><a href=""><span class="glyphicon glyphicon-phone"></span> 7777777777</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<%@ include file="footer.html" %>
+</body>
